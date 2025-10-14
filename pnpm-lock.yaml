@@ -44,11 +44,11 @@ importers:
         specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       sequential-workflow-designer:
-        specifier: ^0.29.1
-        version: 0.29.1(sequential-workflow-model@0.2.0)
+        specifier: ^0.31.0
+        version: 0.31.0(sequential-workflow-model@0.2.0)
       sequential-workflow-designer-react:
-        specifier: ^0.29.1
-        version: 0.29.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sequential-workflow-designer@0.29.1(sequential-workflow-model@0.2.0))
+        specifier: ^0.31.0
+        version: 0.31.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sequential-workflow-designer@0.31.0(sequential-workflow-model@0.2.0))
       sequential-workflow-editor:
         specifier: ^0.14.8
         version: 0.14.8(sequential-workflow-editor-model@0.14.8(sequential-workflow-model@0.2.0))(sequential-workflow-model@0.2.0)
@@ -1569,15 +1569,15 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  sequential-workflow-designer-react@0.29.1:
-    resolution: {integrity: sha512-sP98XWD908L7W/48CdFEEnL+e1UrAYvVEkpgzArofmDgc0erRrcKGOtN6k+M8yNEjVxWytEpcpCojQHuuH6AHg==}
+  sequential-workflow-designer-react@0.31.0:
+    resolution: {integrity: sha512-i8DmRVP61rfS0JoollzGaiY7J/FEmtUAWgTQore8WkK1KGcMCyMFZNfq4j5Twa/XWTs9bE8ZvFdxRpxWvr2TXg==}
     peerDependencies:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
-      sequential-workflow-designer: ^0.29.1
+      sequential-workflow-designer: ^0.31.0
 
-  sequential-workflow-designer@0.29.1:
-    resolution: {integrity: sha512-0XfHlkhoVc/nvMNXg80dVP8N/MBRnjrWbsPPlfRl+dd1HmSF+AlE9YgO4nuhTHUHi3seI81TC5Kf8RwjZ4mTYw==}
+  sequential-workflow-designer@0.31.0:
+    resolution: {integrity: sha512-M1mPf79u5swztIbUf+Pjln4Jro8iUHA0mZc9EUwsZPi9o/MFz3w/YYiYndf385U1kqTrlXHrhB8NkugVthonBg==}
     peerDependencies:
       sequential-workflow-model: ^0.2.0
 
@@ -2490,7 +2490,7 @@ snapshots:
       eslint: 8.43.0
       eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 3.5.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5(eslint@8.43.0))(eslint@8.43.0)
-      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.5.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5(eslint@8.43.0))(eslint@8.43.0))(eslint@8.43.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.5.5)(eslint@8.43.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.43.0)
       eslint-plugin-react: 7.32.2(eslint@8.43.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.43.0)
@@ -2514,7 +2514,7 @@ snapshots:
       enhanced-resolve: 5.15.0
       eslint: 8.43.0
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@3.5.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5(eslint@8.43.0))(eslint@8.43.0))(eslint@8.43.0)
-      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.5.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5(eslint@8.43.0))(eslint@8.43.0))(eslint@8.43.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.5.5)(eslint@8.43.0)
       get-tsconfig: 4.6.2
       globby: 13.2.1
       is-core-module: 2.12.1
@@ -2537,7 +2537,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.27.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.5.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-node@0.3.7)(eslint-plugin-import@2.27.5(eslint@8.43.0))(eslint@8.43.0))(eslint@8.43.0):
+  eslint-plugin-import@2.27.5(@typescript-eslint/parser@5.61.0(eslint@8.43.0)(typescript@5.4.5))(eslint-import-resolver-typescript@3.5.5)(eslint@8.43.0):
     dependencies:
       array-includes: 3.1.6
       array.prototype.flat: 1.3.1
@@ -3432,13 +3432,13 @@ snapshots:
   semver@7.7.2:
     optional: true
 
-  sequential-workflow-designer-react@0.29.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sequential-workflow-designer@0.29.1(sequential-workflow-model@0.2.0)):
+  sequential-workflow-designer-react@0.31.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sequential-workflow-designer@0.31.0(sequential-workflow-model@0.2.0)):
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      sequential-workflow-designer: 0.29.1(sequential-workflow-model@0.2.0)
+      sequential-workflow-designer: 0.31.0(sequential-workflow-model@0.2.0)
 
-  sequential-workflow-designer@0.29.1(sequential-workflow-model@0.2.0):
+  sequential-workflow-designer@0.31.0(sequential-workflow-model@0.2.0):
     dependencies:
       sequential-workflow-model: 0.2.0
 
